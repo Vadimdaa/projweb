@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <p>&copy; 2022 mironen.company</p>
+    <p>&copy; 2022 matrosova.company</p>
   </footer>
 </template>
 

@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h1 class="heading">ПРИВЕТСТВУЮ НА НОВОСТНОМ САЙТЕ ВАДИМА МИРОНЕНКО</h1>
+    <h1 class="heading">Сайт новостей</h1>
     <div class="carousel__wrapper">
-      <h2 class="carousel__title">CРОЧНЫЕ НОВОСТИ:</h2>
+      <h2 class="carousel__title">Нонвости</h2>
       <Carousel />
     </div>
   </div>

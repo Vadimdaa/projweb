@@ -1,7 +1,7 @@
 <template>
   <v-app-bar app class="header" color="#EE846D">
     <v-app-bar-title>
-      <router-link to="/" class="header__logo">VAD</router-link>
+      <router-link to="/" class="header__logo">MATROS</router-link>
     </v-app-bar-title>
     <nav class="header__nav nav">
       <ul class="nav__list">
@@ -9,14 +9,14 @@
           <router-link to="/" class="header__logo">Главная</router-link>
         </li>
         <li class="nav__item">
-          <router-link to="/articles" class="header__logo">Статьи!</router-link>
+          <router-link to="/articles" class="header__logo">Статьи</router-link>
         </li>
       </ul>
     </nav>
     <form v-if="!tabletView" class="search__form" @submit="searchSubmit">
       <v-text-field v-model="searchData"></v-text-field>
 
-      <v-btn depressed type="submit" class="search__submit"> Искать! </v-btn>
+      <v-btn depressed type="submit" class="search__submit"> Искать </v-btn>
     </form>
   </v-app-bar>
 </template>
